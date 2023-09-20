@@ -48,11 +48,13 @@ To test the deployment you can do the following:
 3. Set MinIO credentials (Warning: This will overwrite )
    ```bash
    # Linux
-    cat <<EOF > ~/.aws/credentials
-    [default]
-    aws_access_key_id=youraccesskey
-    aws_secret_access_key=yoursecretkey
-    EOF
+   cat <<EOF > ~/.aws/credentials
+   [default]
+   aws_access_key_id=minio
+   aws_secret_access_key=minio123
+   EOF
+   ```
+   ```bash
    # Windows 
    (
    echo [default]
