@@ -86,7 +86,8 @@ To test the deployment you can do the following:
    }
    }'  
    ```
-
+## Docker image 
+The built docker image can also be found [here](https://hub.docker.com/repository/docker/madtomy/mlflow/general):
 
 
 ## References 
