@@ -4,6 +4,12 @@
 This project contains the necessary docker files and compose to deploy an mlflow server. 
 In this deployment, MinIO S3 is used to store the artifacts and Mysql is used as the backend store. 
 
+## Architecture
+
+<div style="text-align:center;">
+<img src="assets/architecture.png" style="max-height:500px">
+</div>
+
 ## Pre-Requisites
 - [Docker](https://www.docker.com/) is installed and running.
 - [Conda](https://www.anaconda.com/)(Optional) is installed.
